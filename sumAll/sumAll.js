@@ -24,7 +24,7 @@ const sumAll = function(num1, num2) {
   for (i = lowEnd; i <= highEnd; i++) {
     range.push(i);
   }
-  // adding all numbers in array together
+  // Adding all numbers in array together
   for (i = 0; i < range.length; i++) {
     sum += range[i];
   }
